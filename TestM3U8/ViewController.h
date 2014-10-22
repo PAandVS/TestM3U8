@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "M3U8Handler.h"
+#import "VideoDownloader.h"
+@interface ViewController : UIViewController<M3U8HandlerDelegate,VideoDownloadDelegate>
 
 @end

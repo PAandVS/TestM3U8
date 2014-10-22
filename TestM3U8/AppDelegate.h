@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HTTPServer.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    HTTPServer *httpServer;
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @end
